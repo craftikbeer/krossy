@@ -10,7 +10,7 @@ function Header() {
           <div className="flex items-center justify-between h-16">
             <div className="flex items-center gap-2">
               <div className="icon-footprints text-2xl"></div>
-              <span className="text-xl font-black tracking-tight">МИГУЛЯ</span>
+              <span className="text-xl font-black tracking-tight">деревня.com</span>
             </div>
             
             <button 

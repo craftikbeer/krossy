@@ -37,7 +37,7 @@ function Footer() {
 
           <div className="border-t border-white/10 pt-8 text-center">
             <p className="text-gray-500 text-xs">
-              © 2025 Мигуля Shop. Все права защищены.
+              © 2025 деревня.com. Все права защищены.
             </p>
           </div>
         </div>
