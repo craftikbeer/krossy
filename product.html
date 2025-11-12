@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Детали товара - Мигуля SHOP</title>
+    <meta name="description" content="Подробная информация о кроссовках">
+    <script src="https://resource.trickle.so/vendor_lib/unpkg/react@18/umd/react.production.min.js"></script>
+    <script src="https://resource.trickle.so/vendor_lib/unpkg/react-dom@18/umd/react-dom.production.min.js"></script>
+    <script src="https://resource.trickle.so/vendor_lib/unpkg/@babel/standalone/babel.min.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://resource.trickle.so/vendor_lib/unpkg/lucide-static@0.516.0/font/lucide.css" rel="stylesheet">
+
+    <style type="text/tailwindcss">
+    @layer theme {
+        :root {
+            --primary-color: #000000;
+            --secondary-color: #ffffff;
+            --accent-color: #000000;
+            --text-primary: #000000;
+            --text-secondary: #666666;
+            --bg-primary: #ffffff;
+            --bg-secondary: #f8f8f8;
+        }
+    }
+
+    @layer base {
+        body {
+            @apply bg-[var(--bg-primary)] text-[var(--text-primary)] font-sans;
+        }
+        h1, h2, h3 {
+            @apply font-light tracking-tight;
+        }
+    }
+
+    @layer components {
+        .btn-telegram {
+            @apply bg-[#0088cc] hover:bg-black text-white font-normal py-3 px-8 transition-all duration-300 flex items-center justify-center gap-2;
+        }
+        .btn-primary {
+            @apply bg-black hover:bg-white hover:text-black text-white font-normal py-3 px-8 transition-all duration-300 flex items-center justify-center gap-2 border border-black;
+        }
+    }
+    </style>
+</head>
+<body>
+    <div id="root"></div>
+    <script type="text/babel" src="components/ProductDetail.js"></script>
+    <script type="text/babel" src="components/Footer.js"></script>
+    <script type="text/babel" src="product-app.js"></script>
+</body>
+</html>
